@@ -19,7 +19,7 @@ require("ab_nav_bar.cgi");
 
 $sid = "";
 $sid = $session->param("sid");
-($loginType,$loginDfn,$loginShooter,$sec_code,$loginToken) = split(/\^/,$sid);
+
 
 if ($loginType ne "Admin"){
 	MyAlert("Your session has ended.","login.cgi");
