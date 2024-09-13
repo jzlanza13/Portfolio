@@ -17,7 +17,6 @@ my $session_id = $cgi->cookie('CGISESSID');
 
 $session = CGI::Session->load(undef, $session_id, {Directory=>'sessions'});
 
-# require("/home/weatherby/rewards/public_html/cgi-bin/lane_env5.cgi") ;
 require("rm_config.cgi") ;
 require("rm_dt_now.cgi") ;
 require("ab_nav_bar.cgi");
@@ -26,7 +25,7 @@ require("ab_nav_bar.cgi");
 
 $sid = "";
 $sid = $session->param("sid");
-($loginType,$loginDfn,$loginShooter,$sec_code,$loginToken) = split(/\^/,$sid);
+
 
 if ($loginType ne "Admin"){
 	MyAlert("Your session has ended.","login.cgi");
