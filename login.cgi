@@ -194,7 +194,7 @@ background-size: 100px 50px;/*  Adjust the size of the repeated logo */
     background-color: #e8e8e8!important;
 }
 body{
-    background-image: url("https://dealerrewards.aeroprecisionusa.com/images/background/Entry_Background_image2x.png");
+    background-image: url("/images/background/Entry_Background_image2x.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -233,10 +233,10 @@ body{
 
 
 <div class="mt-0 text-center mx-auto w25 bg-light shadow p-1" style="height:50px;">
-    <img class="brandtop" src="https://dealerrewards.aeroprecisionusa.com/images/menu/Nav_Aero.png" alt="Logo" style="max-height:100%;max-width:20%;object-fit:cover;">&nbsp;&nbsp;&nbsp;
-    <img class="brandtop" src="https://dealerrewards.aeroprecisionusa.com/images/menu/Nav_Stag.png" alt="Logo" style="max-height:100%;max-width:20%;object-fit:cover;">&nbsp;&nbsp;&nbsp;
-    <img class="brandtop" src="https://dealerrewards.aeroprecisionusa.com/images/menu/Nav_BA.png" alt="Logo" style="max-height:100%;max-width:20%;object-fit:cover;">&nbsp;&nbsp;&nbsp;
-    <img class="brandtop" src="https://dealerrewards.aeroprecisionusa.com/images/menu/Nav_VG6.png" alt="Logo" style="max-height:100%;max-width:20%;object-fit:cover;">
+    <img class="brandtop" src="/images/menu/Nav_Aero.png" alt="Logo" style="max-height:100%;max-width:20%;object-fit:cover;">&nbsp;&nbsp;&nbsp;
+    <img class="brandtop" src="/images/menu/Nav_Stag.png" alt="Logo" style="max-height:100%;max-width:20%;object-fit:cover;">&nbsp;&nbsp;&nbsp;
+    <img class="brandtop" src="/images/menu/Nav_BA.png" alt="Logo" style="max-height:100%;max-width:20%;object-fit:cover;">&nbsp;&nbsp;&nbsp;
+    <img class="brandtop" src="/images/menu/Nav_VG6.png" alt="Logo" style="max-height:100%;max-width:20%;object-fit:cover;">
 </div>
 
 <div class="d-flex align-items-center justify-content-md-center min-vh-100 flex-column pt-3 pt-md-0" style="">
@@ -264,7 +264,7 @@ body{
                 </div>
             </div>
             <div class="col-md-6 right-columnx">
-                <img id="columnX" src="https://dealerrewards.aeroprecisionusa.com/images/login_page/LoginPage_RightImage.png" alt="Placeholder Image">
+                <img id="columnX" src="/images/login_page/LoginPage_RightImage.png" alt="Placeholder Image">
             </div>
         </div>
     </div>
