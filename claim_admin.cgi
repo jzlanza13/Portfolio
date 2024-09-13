@@ -17,7 +17,7 @@ my $session_id = $cgi->cookie('CGISESSID');
 
 $session = CGI::Session->load(undef, $session_id, {Directory=>'sessions'});
 my $sid = $session->param("sid");
-my ($loginType,$loginDfn,$loginShooter,$sec_code,$loginToken) = split(/\^/,$sid);
+
 
 require("rm_config.cgi") ;
 require("rm_dt_now.cgi") ;
